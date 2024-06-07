@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Space+Grotesk:wght@300..700&display=swap");
+
+.span-logo {
+  font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+span {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.search-input {
+  border: 1px solid;
+  border-color: rgb(218, 218, 218);
+  background-color: white;
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.search-input:hover {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.search-input input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.search-input input::after {
+  border: white;
+}
+
+.icon-group i {
+  color: black;
+  font-size: 20px;
+}
+
+.nav li > a {
+  color: white;
+  cursor: pointer;
+}
+
+.nav li > a:hover {
+  color: rgb(255, 179, 0);
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.dropItem ul {
+  border: none;
+  background-color: black;
+  border-radius: 0;
+}
+
+.dropItem a {
+  color: white;
+  text-transform: uppercase;
+}
+
+.dropItem {
+  font-style: normal;
+}
+
+.subHeader {
+  background-color: black;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
